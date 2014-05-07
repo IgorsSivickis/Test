@@ -1,12 +1,16 @@
 //
-//  PlayingCard.m
+//  PlayingCard2.m
 //  Test
 //
-//  Created by Igors.Sivickis on 5/6/14.
+//  Created by Igors.Sivickis on 5/7/14.
 //  Copyright (c) 2014 accenture. All rights reserved.
 //
 
 #import "PlayingCard.h"
+
+@interface PlayingCard()
+
+@end;
 
 @implementation PlayingCard
 
@@ -16,20 +20,16 @@
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
-@synthesize suit = _suit;
+@synthesize suit = _suit; // because we provide the setter AND the getter
 
-+(NSArray *)validSuits
-{
-    return @[@"♣︎",@"♥︎",@"♦︎",@"♠︎"];
++ (NSArray *)validSuits {
+    return @[@"♣", @"♠", @"♦", @"♥"];
 }
 
--(void)setSuit:(NSString *)suit
-{
-    if ([[PlayingCard validSuits] containsObject:suit])
-    {
+- (void)setSuit:(NSString *)suit {
+    if ([[PlayingCard validSuits] containsObject:suit]) {
         _suit = suit;
     }
-    
 }
 
 -(NSString *)suit

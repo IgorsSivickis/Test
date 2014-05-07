@@ -2,12 +2,18 @@
 //  PlayingCard.h
 //  Test
 //
-//  Created by Igors.Sivickis on 5/6/14.
+//  Created by Igors.Sivickis on 5/7/14.
 //  Copyright (c) 2014 accenture. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Card.h"
 
-@interface PlayingCard : NSObject
+@interface PlayingCard : Card
+
+@property (nonatomic, strong) NSString * suit;
+@property (nonatomic) NSUInteger rank;
+
++ (NSArray *)validSuits;
++ (NSUInteger)maxRank;
 
 @end
