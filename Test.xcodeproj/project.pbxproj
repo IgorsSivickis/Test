@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E04EF43191A70460034D448 /* PlayingtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04EF42191A70460034D448 /* PlayingtestViewController.m */; };
 		1E162B2D19191D0800B0A3A6 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E162B2C19191D0800B0A3A6 /* Card.m */; };
 		1E328C5C191A31FE00BCC139 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E328C5B191A31FE00BCC139 /* PlayingCard.m */; };
 		1E328C5F191A341A00BCC139 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E328C5E191A341A00BCC139 /* CardMatchingGame.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E04EF41191A70460034D448 /* PlayingtestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingtestViewController.h; sourceTree = "<group>"; };
+		1E04EF42191A70460034D448 /* PlayingtestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingtestViewController.m; sourceTree = "<group>"; };
 		1E162B2B19191D0800B0A3A6 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		1E162B2C19191D0800B0A3A6 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		1E328C5A191A31FE00BCC139 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				1EE8F31B1918EF7900B8DAA2 /* Main.storyboard */,
 				1EE8F31E1918EF7900B8DAA2 /* testViewController.h */,
 				1EE8F31F1918EF7900B8DAA2 /* testViewController.m */,
+				1E04EF41191A70460034D448 /* PlayingtestViewController.h */,
+				1E04EF42191A70460034D448 /* PlayingtestViewController.m */,
 				1EE8F3211918EF7900B8DAA2 /* Images.xcassets */,
 				1EE8F3101918EF7900B8DAA2 /* Supporting Files */,
 			);
@@ -279,6 +284,7 @@
 				1EE8F3201918EF7900B8DAA2 /* testViewController.m in Sources */,
 				1EE8F31A1918EF7900B8DAA2 /* testAppDelegate.m in Sources */,
 				1EE6E0C819193194007B1695 /* PlayingCardDeck.m in Sources */,
+				1E04EF43191A70460034D448 /* PlayingtestViewController.m in Sources */,
 				1E328C5F191A341A00BCC139 /* CardMatchingGame.m in Sources */,
 				1EE8F3161918EF7900B8DAA2 /* main.m in Sources */,
 				1E328C5C191A31FE00BCC139 /* PlayingCard.m in Sources */,

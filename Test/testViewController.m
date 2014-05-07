@@ -7,7 +7,6 @@
 //
 
 #import "testViewController.h"
-#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface testViewController ()
@@ -31,15 +30,15 @@
 }
 
 
--(Deck *)deck
+/*-(Deck *)deck
 {
     if (!_deck) _deck = [self createDeck];
     return _deck;
-}
+} */
 
 -(Deck *)createDeck
 {
-    return [[PlayingCardDeck alloc] init];
+    return nil;
 }
 
 - (IBAction)touchcardButton:(UIButton *)sender
